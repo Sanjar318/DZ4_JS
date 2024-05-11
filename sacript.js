@@ -46,10 +46,10 @@ function random() {
             }
             if (resul == user) {
                 console.log(`Верный ответ: ${rand1} ${operator} ${rand2} = ${Math.round(resul)} Молодец!: ${user}`);
-                alert(`Верный ответ: ${rand1} ${operator} ${rand2} = ${resul} Молодец!`);
+                alert(`Верный ответ: ${rand1} ${operator} ${rand2} = ${Math.round(resul) Молодец!`);
             } else {
-                console.log(`Верный ответ: ${rand1} ${operator} ${rand2} = ${resul} Ты дал(а) не верный ответ: ${user}`);
-                alert(`Верный ответ: ${rand1} ${operator} ${rand2} = ${resul} Ты дал(а) не верный ответ: ${user}`);
+                console.log(`Верный ответ: ${rand1} ${operator} ${rand2} = ${Math.round(resul) Ты дал(а) не верный ответ: ${user}`);
+                alert(`Верный ответ: ${rand1} ${operator} ${rand2} = ${Math.round(resul) Ты дал(а) не верный ответ: ${user}`);
             }
             
         }
